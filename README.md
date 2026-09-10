@@ -148,7 +148,7 @@ pranavroy07.github.io/
 | [Dynamic Array in C](https://github.com/PranavRoy07/DynamicArray-C) | C | malloc/realloc, Valgrind zero-leak |
 | [Doubly Linked List & BST](https://github.com/PranavRoy07/DoublyLinkedList-BST-C) | C | All 3 BST deletion cases, Valgrind clean |
 | [Python Algorithm Library](https://github.com/PranavRoy07/Python-Algorithm-Library) | Python | 25 problems, pytest, type hints, Google docstrings |
-| [Banking System C++](https://github.com/PranavRoy07/Banking-System-CPP) | C++ | RAII, templates, Rule of Five, Valgrind clean |
+| [Banking System C++](https://github.com/PranavRoy07/banking-system) | C++ | RAII, templates, Rule of Five, Valgrind clean |
 
 ---
 
