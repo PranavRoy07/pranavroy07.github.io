@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](assets/screenshots/zepto_War_Room.png)
+![Portfolio Preview](assets/screenshots/portfolio_page.png)
 
 [![Live Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-pranavroy07.github.io-00E5CC?style=for-the-badge)](https://pranavroy07.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-PranavRoy07-181717?style=for-the-badge&logo=github)](https://github.com/PranavRoy07)
@@ -15,6 +15,7 @@
 </div>
 
 ---
+
 
 ## 📌 About This Portfolio
 
