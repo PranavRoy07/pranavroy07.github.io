@@ -132,9 +132,9 @@ pranavroy07.github.io/
 | 09 | [IBM HR Attrition Dashboard](https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard) | Data Analytics | Excel, Pivot Tables | — |
 | 10 | [Bank Customer Churn Analytics](https://github.com/PranavRoy07/Bank-Customer-Churn-Analytics) | ML + Analytics | Python, scikit-learn, Streamlit | [🚀 Live](https://bank-customer-churn-risk.streamlit.app/) |
 | 11 | [Growth Experimentation Analytics](https://github.com/PranavRoy07/Growth-Experimentation-Retention-Analytics) | Analytics | Python, A/B Testing, Streamlit | [🚀 Live](https://growth-experimentation-retention-analytics-09.streamlit.app/) |
-| 12 | [Vanilla JS Quiz Engine](https://github.com/PranavRoy07/vanilla-js-quiz-engine) | Web | JavaScript, DOM API, localStorage | — |
-| 13 | [Pan-India Cinema Site](https://github.com/PranavRoy07/pan-india-cinema-dashboard-site) | Web | JS, Fetch API, Promise.allSettled | — |
-| 14 | [Realtime Collaborative Note Board](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-) | Web | JS, Node.js, WebSocket | — |
+| 12 | [Vanilla JS Quiz Engine](https://github.com/PranavRoy07/vanilla-js-quiz-engine) | Web | JavaScript, DOM API, localStorage | [🚀 Live](https://pranavroy07.github.io/vanilla-js-quiz-engine/) |
+| 13 | [Pan-India Cinema Site](https://github.com/PranavRoy07/pan-india-cinema-dashboard-site) | Web | JS, Fetch API, Promise.allSettled | [🚀 Live](https://pranavroy07.github.io/pan-india-cinema-dashboard-site/) |
+| 14 | [Realtime Collaborative Note Board](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-) | Web | JS, Node.js, WebSocket | [🚀 Live](https://realtime-note-borad.netlify.app/) |
 | 15 | [freeCodeCamp Data Analysis](https://github.com/PranavRoy07/FreeCodeCamp) | Data Analytics | Python, Pandas, Matplotlib, SciPy | — |
 
 ---
