@@ -124,7 +124,7 @@ pranavroy07.github.io/
 | 01 | [Zepto vs Blinkit War Room](https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM) | Data Analytics | SQL, Python, Power BI, ARIMA | — |
 | 02 | [Pan-India Cinema Intelligence](https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard) | Data Analytics | Power BI, DAX, Excel | — |
 | 03 | [CodeAlpha AI Builds](https://github.com/PranavRoy07/CodeAlpha_AI) | AI / ML | Python, YOLOv8, TF-IDF, Claude API | — |
-| 04 | [Script2Cinema](https://github.com/PranavRoy07/script2cinema) | Web | HTML, CSS, JS, Firebase | — |
+| 04 | [Script2Cinema](https://github.com/PranavRoy07/script2cinema) | Web | HTML, CSS, JS, Firebase | [🚀 Live](https://pranavroy07.github.io/script2cinema/) |
 | 05 | [Job Intelligence Engine](https://github.com/PranavRoy07/job-tracker) | Python | Rich, SQLite, APScheduler | — |
 | 06 | [CodeAlpha Data Analytics](https://github.com/PranavRoy07/CodeAlpha_DataAnalytics) | Data Analytics | Python, BeautifulSoup, TextBlob | — |
 | 07 | [IPL Match Performance Analyzer](https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer) | Data Analytics | PostgreSQL, Python, Seaborn | — |
