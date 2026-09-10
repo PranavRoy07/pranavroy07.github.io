@@ -1,0 +1,248 @@
+[PRANAVROY](http://localhost:8085/index.html#hero)
+[About](http://localhost:8085/index.html#about)
+[Skills](http://localhost:8085/index.html#skills)
+[Projects](http://localhost:8085/index.html#projects)
+[Certs](http://localhost:8085/index.html#certs)
+[Experience](http://localhost:8085/index.html#experience)
+[Contact](http://localhost:8085/index.html#contact)
+[About](http://localhost:8085/index.html#about)
+[Skills](http://localhost:8085/index.html#skills)
+[Projects](http://localhost:8085/index.html#projects)
+[Certifications](http://localhost:8085/index.html#certs)
+[Experience](http://localhost:8085/index.html#experience)
+[Contact](http://localhost:8085/index.html#contact)
+
+# PRANAV ROY
+
+"Code. Data. Create. — BBACA Graduate | Pune, India"
+[🐙 github.com/PranavRoy07](https://github.com/PranavRoy07)
+[💼 linkedin.com/in/pranav-roy-data](https://linkedin.com/in/pranav-roy-data)
+[📧 pranavroy07@gmail.com](mailto:pranavroy07@gmail.com)
+[View Projects ➔](http://localhost:8085/index.html#projects)
+[Download Resume 📥](http://localhost:8085/resume.pdf)
+
+## Zepto vs Blinkit War Room
+Multi-Source Competitive Analytics Dashboard
+- 7-zone dark-theme Power BI dashboard comparing Zepto & Blinkit
+- Statistical tests: t-test, chi-square, K-Means clustering, RFM, SPC
+- ARIMA demand forecasting + multi-source data pipeline
+- Advanced SQL + Python pandas for end-to-end wrangling
+- Covers delivery speed, pricing, sentiment & market share
+[View on GitHub 🐙](https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM)
+
+## Pan-India Cinema Intelligence
+Power BI Dashboard — 141 Films Across 6 Indian Industries (2012–2025)
+- 5-page interactive dashboard: Overview, Box Office, Star Power, OTT, Pan-India
+- Tollywood leads with 41% of total worldwide collections
+- Pan-India films deliver 2× better ROI than regional-only releases
+- Amazon Prime leads OTT with 40+ film acquisitions
+- Advanced DAX: Hit Rate %, ROI %, Avg OTT Window measures
+[View on GitHub 🐙](https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard)
+
+## IPL Match Performance Analyzer
+260,920 Ball-by-Ball Deliveries — PostgreSQL + Python Pipeline
+[View on GitHub 🐙](https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer)
+
+## Global Data Science Job Market Analysis
+PostgreSQL · Pure SQL · Window Functions · CTEs — 3,925 Global Listings
+- Salary trends by country, experience level, and role
+- Remote vs on-site demand analysis with year-over-year shifts
+- Top-10 in-demand skills ranked by posting frequency
+- Advanced CTEs, RANK(), DENSE_RANK(), LAG() window functions
+[View on GitHub 🐙](https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis)
+
+## IBM HR Employee Attrition Dashboard
+Excel · Pivot Tables · Advanced Formulas · Linked Slicers — 1,470 Records
+- Attrition by department, age, and role
+- Overtime and salary band analysis
+- Interactive slicers for cross-chart filtering
+- KPI cards: Attrition Rate, Avg Tenure, Salary Gap
+[View on GitHub 🐙](https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard)
+
+### freeCodeCamp Data Analysis
+Full Certification — 5 Projects: Demographic · Medical · Sea Level · Time Series · Statistical
+- Demographic Data Analyzer — pandas, groupby, filtering on census dataset
+- Medical Data Visualizer — seaborn heatmap, catplot, correlation matrix
+- Sea Level Predictor — linregress + dual-period trendline extrapolation
+- Page View Time Series — bar, box, line charts with datetime resampling
+[View Repository 🐙](https://github.com/PranavRoy07/FreeCodeCamp)
+
+### CodeAlpha Data Analytics
+BeautifulSoup Web Scraping · EDA · NLP Sentiment Analysis — IMDB Reviews Dataset
+- Web scraping with BeautifulSoup — books dataset from books.toscrape.com
+- EDA with pandas: missing values, distributions, correlation matrices
+- NLP sentiment classification on IMDB 50K reviews — polarity scoring
+[View Repository 🐙](https://github.com/PranavRoy07/CodeAlpha_DataAnalytics)
+
+## CodeAlpha AI Internship Projects
+
+ARIA • Language Translator • TITAN — Three Production AI Systems
+
+### ARIA — NLP FAQ Chatbot
+- Custom TF-IDF vector similarity engine
+- Claude API fallback for unknown queries
+- Fuzzy intent matching & caching
+- Web-deployable, zero backend
+- NLTK preprocessing pipeline
+
+### Language Translator
+- 20+ language pairs supported
+- Tkinter desktop GUI with language dropdown
+- Google Translate API integration
+- Auto language detection
+- Clipboard copy feature
+
+### TITAN — Object Detection
+- Real-time object tracking with ByteTrack
+- Cinematic OpenCV drawing overlay
+- Custom Tkinter GUI with confidence scores
+- Multi-class bounding box detection
+- Live FPS counter and label display
+[View All AI Builds on GitHub 🐙](https://github.com/PranavRoy07/CodeAlpha_AI)
+
+## Script2Cinema
+
+Filmmaker Collaboration Platform — Indian Film Industry Networking
+- Director · Writer · Cinematographer · Producer · Actor profiles
+- Real-time networking & project collaboration feed
+- Firebase-powered auth, storage, and real-time database
+- Search and filter by role, genre, and industry
+- Fully responsive, dependency-free frontend
+[View on GitHub 🐙](https://github.com/PranavRoy07/script2cinema)
+
+### Library Management System (Java)
+- 17/17 JUnit 5 tests passing
+- Interfaces, abstract classes, Collections, Streams, LocalDate
+- All 5 GoF design patterns as interview reference
+[GitHub Link 🐙](https://github.com/PranavRoy07/library-management-system)
+
+### DSA Tracker (Java)
+- 30 Java DSA problems — arrays, linked lists, trees, strings
+- Each with brute-force + optimised solution, complexity notes
+- JUnit 5 tests + HTML progress dashboard
+[GitHub Link 🐙](https://github.com/PranavRoy07/dsa-tracker)
+
+### Realtime Collaborative Note Board
+- Raw WebSockets (no Socket.io)
+- Optimistic UI, drag-and-drop
+- Version-based conflict resolution, exponential-backoff reconnect
+[GitHub Link 🐙](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board)
+
+### Job Tracker (Python)
+- Live job scraping (RemoteOK, Adzuna), skill-fit scoring
+- SQLite via Repository pattern
+- Rich terminal dashboard
+[GitHub Link 🐙](https://github.com/PranavRoy07/Job-Tracker)
+
+### Dynamic Array in C (C)
+- malloc/realloc growth, memmove-based deletion
+- Deliberate use-after-free demo for teaching
+- Valgrind-verified, zero leaks
+
+### Doubly Linked List + BST in C (C)
+- DLL + BST from scratch
+- Pointer-to-pointer head/tail mutation
+- All 3 BST deletion cases via in-order successor
+- Valgrind zero-leak verified
+
+### Python Algorithm Library (Python)
+- 25 DSA problems: arrays/hashing, two pointers, sliding window, binary search, recursion
+- pytest, full type hints, Google-style docstrings
+
+### Banking System (C++)
+- OOP banking: inheritance, virtual functions, unique_ptr/RAII
+- Templates, operator overloading, Rule of Five
+- Full Valgrind clean
+
+### Vanilla JS Quiz Engine
+- Dependency-free quiz engine exposing JS internals
+- Execution contexts, hoisting, TDZ, closures, event loop
+- XSS-safe DOM rendering with no innerHTML
+
+### Pan-India Cinema Dashboard Site
+- Promise.allSettled concurrently fetches movie data across 6 Indian film industries
+- Hand-rolled debounce and memoised fetch caching
+
+### Public Repositories Directory (19 Projects)
+[ZEPTO-VS-BLINKIT-WAR-ROOM ➔](https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM)
+[Pan-India-Cinema-Dashboard ➔](https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard)
+[IPL-Match-Performance-Analyzer ➔](https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer)
+[Global-Data-Science-Job-Market-Analysis ➔](https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis)
+[IBM-HR-Employee-Attrition-Dashboard ➔](https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard)
+[FreeCodeCamp ➔](https://github.com/PranavRoy07/FreeCodeCamp)
+[CodeAlpha_DataAnalytics ➔](https://github.com/PranavRoy07/CodeAlpha_DataAnalytics)
+[CodeAlpha_AI ➔](https://github.com/PranavRoy07/CodeAlpha_AI)
+[script2cinema ➔](https://github.com/PranavRoy07/script2cinema)
+[library-management-system ➔](https://github.com/PranavRoy07/library-management-system)
+[dsa-tracker ➔](https://github.com/PranavRoy07/dsa-tracker)
+[Realtime-Collaborative-Note-Board ➔](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board)
+[Job-Tracker ➔](https://github.com/PranavRoy07/Job-Tracker)
+[Dynamic-Array-C ➔](https://github.com/PranavRoy07/Dynamic-Array-C)
+[Doubly-LinkedList-BST-C ➔](https://github.com/PranavRoy07/Doubly-LinkedList-BST-C)
+[Python-Algorithm-Library ➔](https://github.com/PranavRoy07/Python-Algorithm-Library)
+[Banking-System-CPP ➔](https://github.com/PranavRoy07/Banking-System-CPP)
+[Vanilla-JS-Quiz-Engine ➔](https://github.com/PranavRoy07/Vanilla-JS-Quiz-Engine)
+[Pan-India-Cinema-Site ➔](https://github.com/PranavRoy07/Pan-India-Cinema-Site)
+
+### Data Analysis with Python
+5 projects — NumPy, Pandas, Matplotlib, Seaborn, SciPy
+
+### SQL for Data Science
+Joins, subqueries, window functions, PL/SQL basics
+
+### Tata iQ Data Analytics
+Business problem framing, data storytelling, exec presentation
+
+### Deloitte Data Analytics
+Forensic tech, data classification, dashboard storytelling
+
+### AWS Cloud Practitioner
+Cloud fundamentals: S3, EC2, IAM, billing concepts
+
+### CodeAlpha Internship
+Data Analytics + AI tracks — ARIA, TITAN, Translator
+
+### CodeAlpha
+Data Analytics & AI Intern
+- Completed Data Analytics and AI tracks concurrently — dual-track delivery
+- Built ARIA (TF-IDF + Claude API chatbot), TITAN (YOLOv8+ByteTrack tracker), 20-Language Translator
+- Delivered full documentation: internship log sheets, GR forms, project reports
+
+### Forage Virtual Simulations
+Industry Virtual Internships
+
+#### Tata iQ
+Data storytelling, business problem framing, executive presentation design
+
+#### Deloitte
+Forensic tech, data classification, internal audit simulation, dashboard creation
+
+#### AWS
+Cloud fundamentals: EC2, S3, IAM, billing, infrastructure architecture overview
+
+### 🎓 BBACA — Bachelor of Business Administration in Computer Applications
+Modern College of Arts, Science and Commerce, Pune
+Business Administration + Computer Science hybrid curriculum combining core engineering principles with business domain knowledge.
+
+### Self-Driven Learning & Platforms
+#### freeCodeCamp
+Data Analysis with Python — Full Certification & 5 Verified Projects
+
+#### Oracle Dev Gym
+SQL Challenges & PL/SQL query practice
+
+#### Kaggle
+Pandas, Machine Learning & Feature Engineering courses
+
+#### Simplilearn
+SQL for Data Science certification course
+
+## Let's Build Something Together.
+
+Open to Entry-Level SWE  •  Data Analyst  •  Banking Roles in Pune & Remote
+[🐙 GitHub github.com/PranavRoy07](https://github.com/PranavRoy07)
+[💼 LinkedIn linkedin.com/in/pranav-roy-data](https://linkedin.com/in/pranav-roy-data)
+[📧 Gmail pranavroy07@gmail.com](mailto:pranavroy07@gmail.com)
+[Download Resume 📥](http://localhost:8085/resume.pdf)
+Pranav Roy  •  BBACA Graduate  •  Pune, Maharashtra, India  •  Available for Pune Walk-Ins & Remote Roles
+19 Public GitHub Repositories  •  [github.com/PranavRoy07](https://github.com/PranavRoy07)

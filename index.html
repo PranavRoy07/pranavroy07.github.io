@@ -1,0 +1,1985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranav Roy — Software Engineer & Data Analyst Portfolio</title>
+  <meta name="description"
+    content="Personal portfolio of Pranav Roy — Software Engineer, Data Analyst, and AI Builder. BBACA Graduate based in Pune, India.">
+
+  <!-- REQUIRED LIBRARIES CDN LINKS -->
+  <!-- AOS — scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Typed.js — typewriter -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/dist/typed.umd.js"></script>
+
+  <!-- CountUp.js — stat counters -->
+  <script src="https://cdn.jsdelivr.net/npm/countup.js@2.6.2/dist/countUp.umd.js"></script>
+
+  <!-- tsParticles — particle canvas -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+
+  <!-- GSAP — premium motion engine -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+
+  <!-- Vanilla-tilt — 3D card tilt -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="bg-circles" aria-hidden="true">
+    <div class="bgc bgc-yellow"></div>
+    <div class="bgc bgc-orange"></div>
+    <div class="bgc bgc-pink"></div>
+    <div class="bgc bgc-blue"></div>
+    <div class="bgc bgc-green"></div>
+    <div class="bgc bgc-purple"></div>
+  </div>
+
+  <!-- VFX 05 — MAGNETIC CURSOR -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- LAYER 11 — SCROLL PROGRESS BAR -->
+  <div id="scroll-progress"></div>
+
+  <!-- VFX 01 — CINEMATIC PRELOADER -->
+  <div id="preloader">
+    <div class="pre-ring-wrap">
+      <div class="pre-monogram">PR</div>
+      <div class="pre-ring"></div>
+      <div class="pre-ring-fill"></div>
+    </div>
+    <div class="pre-name">PRANAV ROY</div>
+    <div class="pre-bar-wrap">
+      <div class="pre-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- VFX 02 SYSTEM A — TSPARTICLES CONSTELLATION CANVAS -->
+  <div id="tsparticles" style="position:fixed;inset:0;z-index:0;pointer-events:none;"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        PRANAV<span>ROY</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certs" class="nav-link">Certs</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-hamburger" id="mobile-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#certs" class="nav-link">Certifications</a>
+    <a href="#experience" class="nav-link">Experience</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- SECTION 1 — HERO -->
+    <section class="section section-hero" id="hero">
+      <!-- VFX 02 SYSTEM B — AURORA BLOBS -->
+      <div class="aurora-wrap">
+        <div class="aurora-blob ab1"></div>
+        <div class="aurora-blob ab2"></div>
+        <div class="aurora-blob ab3"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <!-- Subtitle pill badge -->
+          <div class="hero-subtitle-pill hero-pill-entrance">
+            <div class="typed-line">
+              <span style="color:#94A3B8;">I am a </span>
+              <span id="typedEl" style="color:#00E5CC; font-weight:700;"></span>
+              <span class="typed-cursor" style="color:#00E5CC; animation:blink 0.9s step-end infinite;">|</span>
+            </div>
+          </div>
+
+          <!-- VFX 03 & VFX 04 — HERO NAME WITH SPLIT REVEAL & GLITCH HOVER -->
+          <div class="hero-name-wrap">
+            <h1 class="hero-name" id="heroName">PRANAV ROY</h1>
+          </div>
+
+          <p class="hero-tagline hero-tagline-entrance">"Code. Data. Create. — BBACA Graduate | Pune, India"</p>
+
+          <!-- Stat Counters Row with CountUp IDs -->
+          <div class="stats-grid hero-stats-entrance">
+            <div class="stat-item">
+              <div class="stat-number stat-num" id="stat-repos">0</div>
+              <div class="stat-label stat-lbl">GitHub Repos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number stat-num" id="stat-certs">0</div>
+              <div class="stat-label stat-lbl">Certs</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number stat-num" id="stat-langs">0</div>
+              <div class="stat-label stat-lbl">Languages</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number stat-num" id="s4">0</div>
+              <div class="stat-label stat-lbl">Internships</div>
+            </div>
+          </div>
+
+          <!-- Contact Row -->
+          <div class="hero-contacts hero-contacts-entrance">
+            <a href="https://github.com/PranavRoy07" target="_blank" rel="noopener noreferrer" class="contact-chip">
+              🐙 github.com/PranavRoy07
+            </a>
+            <a href="https://linkedin.com/in/pranav-roy-data" target="_blank" rel="noopener noreferrer"
+              class="contact-chip">
+              💼 linkedin.com/in/pranav-roy-data
+            </a>
+            <a href="mailto:pranavroy07@gmail.com" class="contact-chip">
+              📧 pranavroy07@gmail.com
+            </a>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-row hero-cta-entrance">
+            <a href="#projects" class="btn btn-cyan btn-primary">View Projects ➔</a>
+            <a href="resume.pdf" download class="btn btn-outline">Download Resume 📥</a>
+          </div>
+        </div>
+
+        <!-- PART 2 & VFX 10 — HIGH-TECH AVATAR RING SYSTEM + FLOATING TECH BADGE ORBIT -->
+        <div class="hero-visual">
+          <div class="orbit-system">
+            <div class="avatar-wrap">
+              <div class="avatar-ring-outer"></div>
+              <div class="avatar-ring-inner"></div>
+              <div class="avatar-img-wrap">
+                <img src="screenshots/avatar1.jpeg" alt="Pranav Roy Avatar" class="avatar-img" />
+              </div>
+              <div class="avatar-badge">
+                <span class="avatar-dot"></span>
+                Open to Work
+              </div>
+            </div>
+            <div class="orbit orbit-1">
+              <div class="orbit-badge" style="--deg:0deg;">Python</div>
+              <div class="orbit-badge" style="--deg:60deg;">SQL</div>
+              <div class="orbit-badge" style="--deg:120deg;">Power BI</div>
+              <div class="orbit-badge" style="--deg:180deg;">YOLOv8</div>
+              <div class="orbit-badge" style="--deg:240deg;">Java</div>
+              <div class="orbit-badge" style="--deg:300deg;">HTML</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 2 — ABOUT ME -->
+    <section class="section section-frame" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">◉ ABOUT ME</span>
+          <h2 class="section-title">Who Am I?</h2>
+          <p class="section-subtitle">BBACA Graduate & Computer Applications Specialist based in Pune, India</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column Info Grid & Avatar Highlight -->
+          <div class="card-surface info-grid about-left">
+            <div
+              style="display: flex; align-items: center; gap: 1.25rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+              <div
+                style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 2px solid var(--accent-cyan); flex-shrink: 0; box-shadow: 0 0 15px rgba(0,229,204,0.3);">
+                <img src="screenshots/avatar1.jpeg" alt="Pranav Roy Profile"
+                  style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div>
+                <h3 style="font-size: 1.3rem; color: var(--text-primary);">Pranav Roy</h3>
+                <p style="font-size: 0.85rem; color: var(--accent-cyan); font-family: var(--font-mono);">Software
+                  Engineer & Data Analyst</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Degree</span>
+              <span class="info-value">BBACA Graduate — Modern College, Pune (2023–2026)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Target Roles</span>
+              <span class="info-value">Software Engineer · Data Analyst · Banking Technology . Developer</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Internships</span>
+              <span class="info-value">CodeAlpha (Data Analytics & AI) · Forage (Tata iQ, Deloitte, AWS)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Core Stack</span>
+              <span class="info-value">Python · JavaScript · Java · C/C++ · HTML/CSS · SQL · Power BI</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Interests</span>
+              <span class="info-value">AI/ML Systems · Data Storytelling · Developer · Technology</span>
+            </div>
+          </div>
+
+          <!-- Right Column Identity Cards -->
+          <div class="identity-cards-grid about-right">
+            <div class="card-surface identity-card">
+              <span class="icon">🤖</span>
+              <div>
+                <strong>AI Enthusiast & Builder</strong>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">ARIA NLP Chatbot, TITAN
+                  YOLOv8 Tracker</p>
+              </div>
+            </div>
+            <div class="card-surface identity-card">
+              <span class="icon">📊</span>
+              <div>
+                <strong>Data-Driven Analyst</strong>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">Power BI, DAX, SQL Window
+                  Functions, ARIMA</p>
+              </div>
+            </div>
+            <div class="card-surface identity-card">
+              <span class="icon">💻</span>
+              <div>
+                <strong>Multi-Language Coder</strong>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">Python, JS, Java, C/C++,
+                  HTML/CSS</p>
+              </div>
+            </div>
+            <div class="card-surface identity-card">
+              <span class="icon">🌐</span>
+              <div>
+                <strong>Web Application Developer</strong>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">Vanilla JS, HTML/CSS,
+                  WebSockets, Firebase, REST APIs</p>
+              </div>
+            </div>
+            <div class="card-surface identity-card" style="grid-column: span 2;">
+              <span class="icon">🚀</span>
+              <div>
+                <strong>Ready for Entry Level Roles</strong>
+                <p style="font-size: 0.8rem; color: var(--accent-cyan); margin-top: 2px;">Available immediately to join
+                  for Entry-Level roles</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 3 — TECHNICAL SKILLS (VFX 11 CRT SCANLINE FLICKER) -->
+    <section class="section section-frame" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">◉ TECHNICAL SKILLS</span>
+          <h2 class="section-title">What I Bring to the Table</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Column 1 — Programming Languages Skill Bars -->
+          <div class="card-surface proj-card">
+            <h3>Programming Languages</h3>
+            <div class="skill-bar-container">
+              <div class="skill-bar-item" data-target="84">
+                <div class="skill-info">
+                  <span>Python</span>
+                  <span>84%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item" data-target="72">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span>72%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item" data-target="68">
+                <div class="skill-info">
+                  <span>Java</span>
+                  <span>68%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item" data-target="60">
+                <div class="skill-info">
+                  <span>C / C++</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item" data-target="78">
+                <div class="skill-info">
+                  <span>HTML / CSS</span>
+                  <span style="color: var(--accent-cyan);">78%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="width: 0%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2 — Data & AI -->
+          <div class="card-surface proj-card">
+            <h3>Data & AI Stack</h3>
+            <div class="icon-badge-grid">
+              <div class="icon-badge">⚡ SQL / PostgreSQL</div>
+              <div class="icon-badge">📊 Power BI</div>
+              <div class="icon-badge">🐍 Python Analytics</div>
+              <div class="icon-badge">👁️ YOLOv8 / CV</div>
+              <div class="icon-badge">🔤 TF-IDF / NLP</div>
+              <div class="icon-badge">📈 Excel / Sheets</div>
+            </div>
+          </div>
+
+          <!-- Column 3 — Tools -->
+          <div class="card-surface proj-card">
+            <h3>Development Tools</h3>
+            <div class="icon-badge-grid">
+              <div class="icon-badge">🐙 GitHub</div>
+              <div class="icon-badge">💻 VS Code</div>
+              <div class="icon-badge">🔥 Firebase</div>
+              <div class="icon-badge">📷 OpenCV</div>
+              <div class="icon-badge">✋ MediaPipe</div>
+              <div class="icon-badge">🖥️ Tkinter</div>
+              <div class="icon-badge">🌐 HTML</div>
+              <div class="icon-badge">🎨 CSS</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills Bar -->
+        <div class="soft-skills-container">
+          <span class="soft-skills-label">Soft Skills:</span>
+          <span class="badge-pill badge-cyan tech-badge">Problem Solving</span>
+          <span class="badge-pill badge-purple tech-badge">Analytical Thinking</span>
+          <span class="badge-pill badge-amber tech-badge">Cross-Domain Learning</span>
+          <span class="badge-pill badge-green tech-badge">Attention to Detail</span>
+          <span class="badge-pill badge-cyan tech-badge">Storytelling</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 4 — FEATURED PROJECTS SHOWCASE (CSS STICKY STACK) -->
+    <section id="projects">
+
+      <!-- Section header — scrolls away normally before cards begin -->
+      <div class="proj-header">
+        <div class="section-label">◉ FEATURED PROJECTS</div>
+        <h2 class="section-title">Selected Work</h2>
+        <p class="section-sub">
+          Data Analytics · AI · Software Engineering · Web
+        </p>
+      </div>
+
+      <!-- THE STICKY STACK WRAPPER -->
+      <!-- height = number of cards × 100vh (set via JS or inline) -->
+      <div class="proj-stack" id="projStack">
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 01 — ZEPTO VS BLINKIT WAR ROOM
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:0;
+                    --card-bg: linear-gradient(135deg,#003240 0%,#004858 50%,#002030 100%);
+                    --card-accent:#00E5CC;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 01</div>
+              <h3 class="psc-title">Zepto vs Blinkit<br>War Room</h3>
+              <p class="psc-sub">Multi-Source Competitive Analytics Dashboard</p>
+              <p class="psc-desc">
+                7-zone dark-theme Power BI dashboard comparing Zepto & Blinkit across
+                delivery speed, pricing, sentiment and market share. Built with ARIMA
+                demand forecasting and a multi-source SQL + Python data pipeline.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  No single tool compared both platforms across all KPIs simultaneously —
+                  this dashboard unifies 7 analytical zones in one live view.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">SQL</span>
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Excel</span>
+                <span class="psc-tag">Power BI</span>
+                <span class="psc-tag">t-test</span>
+                <span class="psc-tag">ARIMA</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">zepto-vs-blinkit · Power BI</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/zepto_War_Room.png" alt="Zepto vs Blinkit War Room" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 02 — PAN-INDIA CINEMA INTELLIGENCE (Power BI)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:1;
+                    --card-bg: linear-gradient(135deg,#1a0040 0%,#2d0060 50%,#120030 100%);
+                    --card-accent:#A855F7;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 02</div>
+              <h3 class="psc-title">Pan-India Cinema<br>Intelligence</h3>
+              <p class="psc-sub">Power BI · 141 Films · 6 Industries · 2012–2025</p>
+              <p class="psc-desc">
+                5-page interactive Power BI report covering Box Office, Star Power,
+                OTT performance and Pan-India cross-industry metrics. Tollywood leads
+                with 41% of worldwide collections. Advanced DAX: Hit Rate %, ROI %,
+                Avg OTT Window.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Box office data across 6 industries was scattered and incomparable —
+                  this consolidates 141 films into one cross-industry intelligence report.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Power BI</span>
+                <span class="psc-tag">DAX</span>
+                <span class="psc-tag">Excel</span>
+                <span class="psc-tag">Data Modelling</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">cinema-dashboard · Power BI</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/cinema_dashboard.png" alt="Pan-India Cinema Intelligence" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 03 — CODEALPHA AI (ARIA + TITAN + TRANSLATOR)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:2;
+                    --card-bg: linear-gradient(135deg,#001830 0%,#002848 50%,#001020 100%);
+                    --card-accent:#00E5CC;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 03</div>
+              <h3 class="psc-title">CodeAlpha AI<br>Internship Builds</h3>
+              <p class="psc-sub">ARIA · Language Translator · TITAN — Three Production AI Systems</p>
+              <p class="psc-desc">
+                ARIA: TF-IDF + Claude API NLP FAQ chatbot with fuzzy intent matching.
+                TITAN: YOLOv8 + ByteTrack real-time object detection with cinematic
+                OpenCV HUD overlay. Language Translator: 20+ language pairs via Tkinter GUI.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Three real-world AI problems solved end-to-end: NLP retrieval,
+                  real-time computer vision tracking, and multilingual translation — all in one internship.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">YOLOv8</span>
+                <span class="psc-tag">ByteTrack</span>
+                <span class="psc-tag">TF-IDF</span>
+                <span class="psc-tag">Claude API</span>
+                <span class="psc-tag">OpenCV</span>
+                <span class="psc-tag">Tkinter</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/CodeAlpha_AI" target="_blank" rel="noopener noreferrer"
+                  class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">CodeAlpha-AI · Python</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/codealpha_AI.png" alt="CodeAlpha AI Internship Builds" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 04 — SCRIPT2CINEMA
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:3;
+                    --card-bg: linear-gradient(135deg,#0a0010 0%,#180025 50%,#060008 100%);
+                    --card-accent:#F97316;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 04</div>
+              <h3 class="psc-title">Script2Cinema</h3>
+              <p class="psc-sub">Filmmaker Collaboration Platform — Indian Film Industry Networking</p>
+              <p class="psc-desc">
+                Role-based networking platform for Indian filmmakers. Director, Writer,
+                Cinematographer, Producer, with real-time project
+                collaboration feed. Firebase-powered auth, storage, and real-time database.
+                Fully responsive, dependency-free frontend.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Indian filmmakers had no dedicated networking platform —
+                  Script2Cinema connects crew by role with real-time collaboration built on Firebase.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">HTML</span>
+                <span class="psc-tag">CSS</span>
+                <span class="psc-tag">JavaScript</span>
+                <span class="psc-tag">Firebase</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/script2cinema" target="_blank" rel="noopener noreferrer"
+                  class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">script2cinema · Firebase</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/index.png" alt="Script2Cinema Platform" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 05 — JOB INTELLIGENCE ENGINE (python1.png)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:4;
+                    --card-bg: linear-gradient(135deg,#001a00 0%,#003300 50%,#001000 100%);
+                    --card-accent:#22C55E;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 05</div>
+              <h3 class="psc-title">Job Intelligence<br>Engine</h3>
+              <p class="psc-sub">Live Job Scraper · Skill-Fit Scorer · Terminal Dashboard — Powered by Python</p>
+              <p class="psc-desc">
+                Scrapes live job listings from RemoteOK and Adzuna APIs, scores each
+                against your skill profile, and renders a Rich terminal dashboard with
+                Top-10 fit scores, application status tracking, and daily scheduling
+                via APScheduler. Found 62 new listings, 20 today — all from Pune.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Manual job hunting is slow and random — this engine auto-scrapes,
+                  scores by skill fit, and surfaces only the most relevant roles daily.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Rich</span>
+                <span class="psc-tag">SQLite</span>
+                <span class="psc-tag">APScheduler</span>
+                <span class="psc-tag">Requests</span>
+                <span class="psc-tag">Pytest</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/job-tracker" target="_blank" rel="noopener noreferrer"
+                  class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">⚡ JOB INTELLIGENCE ENGINE · Python</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/job_intelligence.png" alt="Job Intelligence Engine Terminal Dashboard" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 06 — CODEALPHA DATA ANALYTICS (codealpha_DA.png)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:5;
+                    --card-bg: linear-gradient(135deg,#002800 0%,#003d00 50%,#001a00 100%);
+                    --card-accent:#4ADE80;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 06</div>
+              <h3 class="psc-title">CodeAlpha Data<br>Analytics Internship</h3>
+              <p class="psc-sub">Web Scraping · EDA · NLP Sentiment Analysis — IMDB 50K Reviews</p>
+              <p class="psc-desc">
+                Four internship deliverables: BeautifulSoup web scraping from books.toscrape.com,
+                Pandas EDA with missing-value treatment and correlation matrices, and NLP
+                sentiment classification on 50K IMDB reviews using TextBlob polarity —
+                75.9% Positive · 24.1% Negative · 0.1% Neutral.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Raw web data and unstructured reviews had no analysis layer —
+                  this pipeline scrapes, cleans, explores, and classifies sentiment end-to-end.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Pandas</span>
+                <span class="psc-tag">BeautifulSoup</span>
+                <span class="psc-tag">TextBlob</span>
+                <span class="psc-tag">Matplotlib</span>
+                <span class="psc-tag">Seaborn</span>
+                <span class="psc-tag">Jupyter</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/CodeAlpha_DataAnalytics" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">CodeAlpha-DataAnalytics · Jupyter</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/codealpha_DA.png" alt="CodeAlpha Data Analytics — Sentiment Distribution" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 07 — IPL MATCH PERFORMANCE ANALYZER
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:6;
+                    --card-bg: linear-gradient(135deg,#002010 0%,#003318 50%,#001a0c 100%);
+                    --card-accent:#22C55E;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 07</div>
+              <h3 class="psc-title">IPL Match<br>Performance Analyzer</h3>
+              <p class="psc-sub">260,920 Ball-by-Ball Deliveries — PostgreSQL + Python Pipeline</p>
+              <p class="psc-desc">
+                End-to-end SQL + Python analysis of every IPL delivery ever bowled.
+                Team win counts, top run scorers, average run rates per over, and
+                head-to-head win-count heatmaps across all seasons. Visualized with
+                Seaborn and Matplotlib.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  260K raw deliveries were unstructured and unanalyzed —
+                  SQL window functions and Python visualization made team and
+                  player patterns instantly readable.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">PostgreSQL</span>
+                <span class="psc-tag">SQLAlchemy</span>
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Seaborn</span>
+                <span class="psc-tag">Matplotlib</span>
+                <span class="psc-tag">Jupyter</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">IPL-Analyzer · PostgreSQL</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/ipl_team_wins.png" alt="IPL Match Performance Analyzer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 08 — GLOBAL DATA SCIENCE JOB MARKET
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:7;
+                    --card-bg: linear-gradient(135deg,#050f3a 0%,#0a1f60 50%,#030a28 100%);
+                    --card-accent:#3B82F6;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 08</div>
+              <h3 class="psc-title">Global Data Science<br>Job Market Analysis</h3>
+              <p class="psc-sub">PostgreSQL · Pure SQL · CTEs · Window Functions — 3,925 Listings</p>
+              <p class="psc-desc">
+                Advanced SQL analysis of the global data science job market.
+                Salary trends by country, experience level, and role. Remote vs
+                on-site demand with year-over-year shifts. Top-10 in-demand skills
+                ranked by posting frequency using RANK() and DENSE_RANK().
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Global DS salary data was fragmented across sources —
+                  advanced CTEs and window functions produced clean, ranked
+                  trends by role, country, and experience level in pure SQL.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">PostgreSQL</span>
+                <span class="psc-tag">SQL</span>
+                <span class="psc-tag">CTEs</span>
+                <span class="psc-tag">Window Functions</span>
+                <span class="psc-tag">pgAdmin</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">Global-Jobs-Analysis · pgAdmin</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/jobs_Indian_Market.png" alt="Global Data Science Job Market" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 09 — IBM HR EMPLOYEE ATTRITION
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:8;
+                    --card-bg: linear-gradient(135deg,#2a0518 0%,#450a28 50%,#200310 100%);
+                    --card-accent:#EC4899;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 09</div>
+              <h3 class="psc-title">IBM HR Employee<br>Attrition Dashboard</h3>
+              <p class="psc-sub">Excel · Pivot Tables · Linked Slicers · 1,470 Records</p>
+              <p class="psc-desc">
+                Interactive Excel dashboard surfacing attrition drivers across
+                department, age band, overtime, tenure, and salary gap. KPI cards
+                for Attrition Rate, Average Tenure, and Salary Gap — all linked
+                with cross-filtering slicers.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  HR teams manually pivoted raw data to find who was leaving and why —
+                  this dashboard surfaces every attrition driver instantly with one click.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Excel</span>
+                <span class="psc-tag">Pivot Tables</span>
+                <span class="psc-tag">Advanced Formulas</span>
+                <span class="psc-tag">Linked Slicers</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">IBM-HR-Attrition · Excel</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/ibm_dashboard.png" alt="IBM HR Attrition Dashboard" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 10 — BANK CUSTOMER CHURN & RETENTION ANALYTICS
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:9;
+                    --card-bg: linear-gradient(135deg,#001a3a 0%,#002d5c 50%,#001028 100%);
+                    --card-accent:#38BDF8;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 10</div>
+              <h3 class="psc-title">Bank Customer Churn<br>&amp; Retention Analytics</h3>
+              <p class="psc-sub">
+                Python · Power BI · Logistic Regression · Streamlit —
+                10,000 Customer Records
+              </p>
+              <p class="psc-desc">
+                End-to-end churn prediction pipeline: EDA, hypothesis testing,
+                logistic regression (80.7% accuracy), Power BI dashboard, and a
+                live Streamlit app where you select any Customer ID and instantly
+                see their churn probability, risk band, and top 2 retention drivers.
+                Overall churn rate: 20.37%. Inactive single-product customers churn
+                at 36.65% — 1.80× the average.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Banks couldn't identify which customers were about to leave or why —
+                  this pipeline predicts individual churn risk with interpretable
+                  logistic regression and delivers retention recommendations to
+                  business stakeholders via a live dashboard.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Pandas</span>
+                <span class="psc-tag">scikit-learn</span>
+                <span class="psc-tag">Logistic Regression</span>
+                <span class="psc-tag">Power BI</span>
+                <span class="psc-tag">Streamlit</span>
+                <span class="psc-tag">Chi-square</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://bank-customer-churn-risk.streamlit.app/" target="_blank" rel="noopener noreferrer"
+                  class="psc-btn psc-btn-live">🚀 Live App</a>
+                <a href="https://github.com/PranavRoy07/Bank-Customer-Churn-Analytics" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">bank-customer-churn-risk.streamlit.app</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/bank_churn_dashboard.png" alt="Bank Customer Churn Dashboard" loading="lazy"
+                    decoding="async" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 11 — GROWTH EXPERIMENTATION & RETENTION ANALYTICS
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:10;
+                    --card-bg: linear-gradient(135deg,#0d2600 0%,#1a3d00 50%,#081800 100%);
+                    --card-accent:#84CC16;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 11</div>
+              <h3 class="psc-title">Growth Experimentation<br>&amp; Retention Analytics</h3>
+              <p class="psc-sub">
+                A/B Testing · Funnel Analysis · Cohort Retention · Streamlit —
+                120,000 Sessions
+              </p>
+              <p class="psc-desc">
+                Full growth analytics suite: A/B test (ad vs PSA), 4-stage funnel
+                (Page View → Cart → Checkout → Purchase), and cohort retention by
+                acquisition source. Ad treatment lifted conversion from 1.79% to
+                2.55% (+43% relative lift, p &lt; 0.001) — but the entire confidence
+                interval sits below the 2pp MDE, so the recommendation is:
+                do not fully roll out yet. Live Streamlit app with interactive filters.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Teams often ship features based on statistical significance alone —
+                  this project shows why practical significance (MDE) matters:
+                  a 43% relative lift still isn't enough if the absolute effect
+                  is below the business threshold.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">A/B Testing</span>
+                <span class="psc-tag">Chi-square</span>
+                <span class="psc-tag">Funnel Analysis</span>
+                <span class="psc-tag">Cohort Retention</span>
+                <span class="psc-tag">Streamlit</span>
+                <span class="psc-tag">Pandas</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://growth-experimentation-retention-analytics-09.streamlit.app/" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn psc-btn-live">🚀 Live App</a>
+                <a href="https://github.com/PranavRoy07/Growth-Experimentation-Retention-Analytics" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">growth-experimentation-retention-analytics-09.streamlit.app</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/growth_experimentation.png" alt="Growth Experimentation & Retention Dashboard"
+                    loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 12 — VANILLA JS QUIZ ENGINE (Javascript1.png)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:11;
+                    --card-bg: linear-gradient(135deg,#1a1a00 0%,#2e2e00 50%,#111100 100%);
+                    --card-accent:#FACC15;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 12</div>
+              <h3 class="psc-title">Vanilla JS<br>Quiz Engine</h3>
+              <p class="psc-sub">Zero Dependencies · Closures · Execution Contexts · Safe DOM Rendering</p>
+              <p class="psc-desc">
+                A dependency-free quiz app built to demonstrate JavaScript internals —
+                execution contexts, hoisting, TDZ, closures, and the event loop.
+                Features a live countdown timer (13s per question), Score tracker,
+                Best score persistence, and XSS-safe DOM rendering with no innerHTML.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Most quiz apps hide JS internals behind frameworks —
+                  this exposes every mechanism raw: pure logic class, closure timer,
+                  DOM nodes, localStorage — zero libraries.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">JavaScript</span>
+                <span class="psc-tag">HTML</span>
+                <span class="psc-tag">CSS</span>
+                <span class="psc-tag">localStorage</span>
+                <span class="psc-tag">Closures</span>
+                <span class="psc-tag">DOM API</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/vanilla-js-quiz-engine" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">vanilla-js-quiz-engine · localhost</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/vanilla_quiz.png" alt="Vanilla JS Quiz Engine" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 13 — PAN-INDIA CINEMA SITE (Javascript2.png)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:12;
+                    --card-bg: linear-gradient(135deg,#1a0a00 0%,#2e1500 50%,#110800 100%);
+                    --card-accent:#F59E0B;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 13</div>
+              <h3 class="psc-title">Pan-India Cinema<br>Dashboard Site</h3>
+              <p class="psc-sub">Vanilla JS · Promise.allSettled · Hand-rolled Debounce · 6 Industries</p>
+              <p class="psc-desc">
+                Dependency-free web dashboard that concurrently fetches movie data
+                for Bollywood, Tollywood, Kollywood, Sandalwood, Mollywood, and
+                Marathi industries using Promise.allSettled. Search across all 141
+                films instantly with a hand-rolled debounce and memoised fetch cache.
+                Shows avg IMDB rating and box office by genre per industry.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Six industry datasets fetched sequentially would block the UI —
+                  Promise.allSettled fires them concurrently, debounce prevents
+                  search spam, and memoised cache eliminates duplicate fetches.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">JavaScript</span>
+                <span class="psc-tag">HTML</span>
+                <span class="psc-tag">CSS</span>
+                <span class="psc-tag">Fetch API</span>
+                <span class="psc-tag">Promise.allSettled</span>
+                <span class="psc-tag">JSON</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/pan-india-cinema-dashboard-site" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">pan-india-cinema-site · Vanilla JS</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/cinema_site.png" alt="Pan-India Cinema Dashboard Site" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 14 — REALTIME COLLABORATIVE NOTE BOARD (Javascript3.png)
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:13;
+                    --card-bg: linear-gradient(135deg,#1a0500 0%,#2e0a00 50%,#110300 100%);
+                    --card-accent:#FB923C;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 14</div>
+              <h3 class="psc-title">Realtime Collaborative<br>Note Board</h3>
+              <p class="psc-sub">Raw WebSockets · Optimistic UI · Version-Based Conflict Resolution</p>
+              <p class="psc-desc">
+                Multi-user sticky-note board where every connected user sees changes
+                instantly. No Socket.io — raw WebSocket protocol only. Drag-and-drop
+                positioning syncs across all tabs. Optimistic UI updates locally first,
+                reconciles on server confirmation. Exponential-backoff auto-reconnect.
+                Shown: 3 users online simultaneously sharing 3 sticky notes live.
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Concurrent note edits from multiple users cause state conflicts —
+                  version-based conflict resolution ensures last-write-wins cleanly
+                  without corrupting another user's note position.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">JavaScript</span>
+                <span class="psc-tag">Node.js</span>
+                <span class="psc-tag">WebSocket</span>
+                <span class="psc-tag">HTML</span>
+                <span class="psc-tag">CSS</span>
+                <span class="psc-tag">Drag & Drop API</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-" target="_blank"
+                  rel="noopener noreferrer" class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">Realtime-Note-Board · WebSocket</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/realtime_noteboard.png" alt="Realtime Collaborative Note Board" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="psc-peek"></div>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════
+             CARD 15 — FREECODECAMP DATA ANALYSIS (freecodecamp.jpeg)
+             LAST CARD — no peek strip
+        ═══════════════════════════════════════════════ -->
+        <div class="proj-sticky-card" style="--card-index:14;
+                    --card-bg: linear-gradient(135deg,#001433 0%,#002255 50%,#000d22 100%);
+                    --card-accent:#60A5FA;">
+          <div class="psc-inner">
+            <div class="psc-left">
+              <div class="psc-label">◉ PROJECT 15</div>
+              <h3 class="psc-title">freeCodeCamp<br>Data Analysis</h3>
+              <p class="psc-sub">Full Certification · 5 Projects · NumPy · Pandas · Matplotlib · SciPy</p>
+              <p class="psc-desc">
+                Five certification projects spanning the full Python data analysis stack:
+                Demographic Data Analyzer (census groupby filtering) · Medical Data
+                Visualizer (seaborn heatmap + catplot) · Sea Level Predictor (linregress
+                dual-period extrapolation) · Page View Time Series (datetime resampling) ·
+                Statistical Calculator (mean, variance, std, percentile).
+              </p>
+              <div class="psc-problem">
+                <span class="psc-problem-label">// PROBLEM SOLVED:</span>
+                <span class="psc-problem-text">
+                  Five separate real-world dataset problems — demographic, medical,
+                  environmental, time-series, and statistical — each solved end-to-end
+                  with production-quality Python analysis code.
+                </span>
+              </div>
+              <div class="psc-tags">
+                <span class="psc-tag">Python</span>
+                <span class="psc-tag">Pandas</span>
+                <span class="psc-tag">NumPy</span>
+                <span class="psc-tag">Matplotlib</span>
+                <span class="psc-tag">Seaborn</span>
+                <span class="psc-tag">SciPy</span>
+                <span class="psc-tag">Jupyter</span>
+              </div>
+              <div class="psc-btns">
+                <a href="https://github.com/PranavRoy07/FreeCodeCamp" target="_blank" rel="noopener noreferrer"
+                  class="psc-btn">GitHub 🐙</a>
+              </div>
+            </div>
+            <div class="psc-right">
+              <div class="psc-mockup">
+                <div class="psc-browser-bar">
+                  <span class="psc-dot r"></span>
+                  <span class="psc-dot y"></span>
+                  <span class="psc-dot g"></span>
+                  <span class="psc-url">freeCodeCamp · Data Analysis with Python</span>
+                </div>
+                <div class="psc-screen">
+                  <img src="screenshots/freecodecamp.jpeg" alt="freeCodeCamp Data Analysis Certification" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NO peek strip on last card -->
+        </div>
+
+      </div><!-- end .proj-stack -->
+
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 4B — MORE ENGINEERING & SYSTEMS BUILDS -->
+    <section class="section section-frame" id="more-projects">
+      <div class="container">
+        <div class="section-header" style="margin-top: 2rem;">
+          <span class="section-label">◉ ENGINEERING BUILDS</span>
+          <h2 class="section-title">Systems & Algorithm Engineering</h2>
+          <p class="section-sub" style="font-size:13px; color:rgba(255,255,255,0.45); margin-top:4px;">Low-Level Memory
+            Management, Object-Oriented Architecture & Data Structures</p>
+        </div>
+        <div class="cyber-card-grid">
+          <!-- 1. Library Management System -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #A855F7, #EC4899); --card-accent-color: #A855F7; --card-accent-bg: rgba(168,85,247,0.12); --card-accent-border: rgba(168,85,247,0.3); --card-accent-glow: rgba(168,85,247,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">JAVA · DESIGN PATTERNS</span>
+                <span class="cyber-card-num">#14</span>
+              </div>
+              <h3 class="cyber-card-title">Library Management System</h3>
+              <p class="cyber-card-desc">17/17 JUnit 5 tests passing · Clean Architecture with GoF Design Patterns
+                (Factory, Strategy, Singleton)</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/library-management-system" target="_blank"
+                rel="noopener noreferrer" class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+
+          <!-- 2. DSA Tracker -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #00E5CC, #3B82F6); --card-accent-color: #00E5CC; --card-accent-bg: rgba(0,229,204,0.12); --card-accent-border: rgba(0,229,204,0.3); --card-accent-glow: rgba(0,229,204,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">JAVA · DATA STRUCTURES</span>
+                <span class="cyber-card-num">#15</span>
+              </div>
+              <h3 class="cyber-card-title">DSA Tracker</h3>
+              <p class="cyber-card-desc">30 Java DSA problems solved with brute force & optimal approaches +
+                comprehensive JUnit 5 test suite</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/dsa-tracker" target="_blank" rel="noopener noreferrer"
+                class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+
+          <!-- 3. Dynamic Array in C -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #6366F1, #A855F7); --card-accent-color: #6366F1; --card-accent-bg: rgba(99,102,241,0.12); --card-accent-border: rgba(99,102,241,0.3); --card-accent-glow: rgba(99,102,241,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">C · MEMORY MANAGEMENT</span>
+                <span class="cyber-card-num">#16</span>
+              </div>
+              <h3 class="cyber-card-title">Dynamic Array in C</h3>
+              <p class="cyber-card-desc">malloc/realloc growth, memmove deletion, Valgrind-verified zero memory leaks
+                and raw pointer management</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/dynamic-array" target="_blank" rel="noopener noreferrer"
+                class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+
+          <!-- 4. Doubly LinkedList & BST -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #22C55E, #00E5CC); --card-accent-color: #22C55E; --card-accent-bg: rgba(34,197,94,0.12); --card-accent-border: rgba(34,197,94,0.3); --card-accent-glow: rgba(34,197,94,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">C · POINTERS & TREES</span>
+                <span class="cyber-card-num">#17</span>
+              </div>
+              <h3 class="cyber-card-title">Doubly LinkedList & BST</h3>
+              <p class="cyber-card-desc">Pointer-to-pointer mutation, in-order successor deletion, tree balancing & zero
+                memory leak verification</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/Doubly-Linked-List-Binary-Search-Tree-in-C" target="_blank"
+                rel="noopener noreferrer" class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+
+          <!-- 5. Python Algorithm Library -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #F59E0B, #EF4444); --card-accent-color: #F59E0B; --card-accent-bg: rgba(245,158,11,0.12); --card-accent-border: rgba(245,158,11,0.3); --card-accent-glow: rgba(245,158,11,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">PYTHON · PYTEST</span>
+                <span class="cyber-card-num">#18</span>
+              </div>
+              <h3 class="cyber-card-title">Python Algorithm Library</h3>
+              <p class="cyber-card-desc">25 DSA algorithms with type hints, Google docstrings, modular architecture &
+                unit test suite via Pytest</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/python-algorithm-library" target="_blank"
+                rel="noopener noreferrer" class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+
+          <!-- 6. Banking System CPP -->
+          <div class="cyber-card"
+            style="--card-accent: linear-gradient(90deg, #3B82F6, #6366F1); --card-accent-color: #3B82F6; --card-accent-bg: rgba(59,130,246,0.12); --card-accent-border: rgba(59,130,246,0.3); --card-accent-glow: rgba(59,130,246,0.25);">
+            <div>
+              <div class="cyber-card-header">
+                <span class="cyber-card-tag">C++ · OOP & RAII</span>
+                <span class="cyber-card-num">#19</span>
+              </div>
+              <h3 class="cyber-card-title">Banking System CPP</h3>
+              <p class="cyber-card-desc">Inheritance, virtual functions, RAII unique_ptr memory safety, Rule of Five
+                enforcement & Valgrind clean</p>
+            </div>
+            <div class="cyber-card-footer">
+              <a href="https://github.com/PranavRoy07/banking-system." target="_blank" rel="noopener noreferrer"
+                class="cyber-card-btn">View on GitHub 🐙 →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 15 — ALL GITHUB REPOSITORIES -->
+    <section class="section section-frame" id="github-repos">
+      <div class="container">
+        <div class="section-label">◉ OPEN SOURCE</div>
+        <h2 class="section-title">All GitHub Repositories</h2>
+        <p class="section-sub">21 public repositories · github.com/PranavRoy07</p>
+
+
+
+        <div class="cyber-repo-grid">
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #00E5CC; --repo-glow: rgba(0,229,204,0.25);"
+            href="https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">📊</span>
+            <span class="repo-name">ZEPTO-VS-BLINKIT-WAR-ROOM</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #3B82F6; --repo-glow: rgba(59,130,246,0.25);"
+            href="https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🎬</span>
+            <span class="repo-name">Pan-India-Cinema-Dashboard</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #A855F7; --repo-glow: rgba(168,85,247,0.25);"
+            href="https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer-PostgreSQL-Python-" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🏏</span>
+            <span class="repo-name">IPL-Match-Performance-Analyzer</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #F59E0B; --repo-glow: rgba(245,158,11,0.25);"
+            href="https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis-PostgreSQL-" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🌐</span>
+            <span class="repo-name">Global-Data-Science-Job-Market</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #10B981; --repo-glow: rgba(16,185,129,0.25);"
+            href="https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard-Excel-" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">📈</span>
+            <span class="repo-name">IBM-HR-Employee-Attrition</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #60A5FA; --repo-glow: rgba(96,165,250,0.25);"
+            href="https://github.com/PranavRoy07/FreeCodeCamp" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🎓</span>
+            <span class="repo-name">FreeCodeCamp-Data-Analysis</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #22C55E; --repo-glow: rgba(34,197,94,0.25);"
+            href="https://github.com/PranavRoy07/CodeAlpha_DataAnalytics" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🔬</span>
+            <span class="repo-name">CodeAlpha_DataAnalytics</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #38BDF8; --repo-glow: rgba(56,189,248,0.25);"
+            href="https://github.com/PranavRoy07/Bank-Customer-Churn-Analytics" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🏦</span>
+            <span class="repo-name">Bank-Customer-Churn-Analytics</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="analytics"
+            style="--repo-accent: #84CC16; --repo-glow: rgba(132,204,22,0.25);"
+            href="https://github.com/PranavRoy07/Growth-Experimentation-Retention-Analytics" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🧪</span>
+            <span class="repo-name">Growth-Experimentation-Analytics</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="ai"
+            style="--repo-accent: #A855F7; --repo-glow: rgba(168,85,247,0.25);"
+            href="https://github.com/PranavRoy07/CodeAlpha_AI" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🤖</span>
+            <span class="repo-name">CodeAlpha_AI</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #EC4899; --repo-glow: rgba(236,72,153,0.25);"
+            href="https://github.com/PranavRoy07/script2cinema" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🎥</span>
+            <span class="repo-name">script2cinema</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #A855F7; --repo-glow: rgba(168,85,247,0.25);"
+            href="https://github.com/PranavRoy07/library-management-system" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">📚</span>
+            <span class="repo-name">library-management-system</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #00E5CC; --repo-glow: rgba(0,229,204,0.25);"
+            href="https://github.com/PranavRoy07/dsa-tracker" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">⚡</span>
+            <span class="repo-name">dsa-tracker</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #F59E0B; --repo-glow: rgba(245,158,11,0.25);"
+            href="https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">📝</span>
+            <span class="repo-name">Realtime-Collaborative-Note-Board</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #10B981; --repo-glow: rgba(16,185,129,0.25);"
+            href="https://github.com/PranavRoy07/job-tracker" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">💼</span>
+            <span class="repo-name">job-tracker</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #6366F1; --repo-glow: rgba(99,102,241,0.25);"
+            href="https://github.com/PranavRoy07/dynamic-array" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">⚙️</span>
+            <span class="repo-name">dynamic-array</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #22C55E; --repo-glow: rgba(34,197,94,0.25);"
+            href="https://github.com/PranavRoy07/Doubly-Linked-List-Binary-Search-Tree-in-C" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🌲</span>
+            <span class="repo-name">Doubly-LinkedList-BST-C</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #F59E0B; --repo-glow: rgba(245,158,11,0.25);"
+            href="https://github.com/PranavRoy07/python-algorithm-library" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🐍</span>
+            <span class="repo-name">python-algorithm-library</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #3B82F6; --repo-glow: rgba(59,130,246,0.25);"
+            href="https://github.com/PranavRoy07/banking-system." target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">🏦</span>
+            <span class="repo-name">banking-system</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #A855F7; --repo-glow: rgba(168,85,247,0.25);"
+            href="https://github.com/PranavRoy07/vanilla-js-quiz-engine" target="_blank" rel="noopener noreferrer">
+            <span class="repo-icon">⚡</span>
+            <span class="repo-name">vanilla-js-quiz-engine</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+
+          <a class="cyber-repo-btn" data-category="engineering"
+            style="--repo-accent: #00E5CC; --repo-glow: rgba(0,229,204,0.25);"
+            href="https://github.com/PranavRoy07/pan-india-cinema-dashboard-site" target="_blank"
+            rel="noopener noreferrer">
+            <span class="repo-icon">🎞️</span>
+            <span class="repo-name">pan-india-cinema-site</span>
+            <span class="repo-arrow">➜</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 16 — CERTIFICATIONS -->
+    <section class="section section-frame" id="certs">
+      <div class="container">
+        <div class="section-label">◉ CREDENTIALS</div>
+        <h2 class="section-title">Certifications & Learning</h2>
+        <p class="section-sub" style="font-size:13px; color:rgba(255,255,255,0.45); margin-top:4px;">Verified
+          credentials from industry-recognized platforms</p>
+
+        <div class="cyber-cert-grid">
+          <!-- 1. freeCodeCamp -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #60A5FA; --cert-brand-bg: rgba(96,165,250,0.12); --cert-brand-border: rgba(96,165,250,0.3); --cert-brand-glow: rgba(96,165,250,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">FREECODECAMP</span>
+                <span class="cyber-cert-status">✓ CERTIFIED</span>
+              </div>
+              <h3 class="cyber-cert-title">Data Analysis with Python</h3>
+              <p class="cyber-cert-desc">Completed 5 verified projects: Demographic Data Analyzer, Medical Data
+                Visualizer, Sea Level Predictor, Time Series Analyzer, and Statistical Calculator.</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">NumPy</span>
+              <span class="cyber-cert-pill">Pandas</span>
+              <span class="cyber-cert-pill">Matplotlib</span>
+              <span class="cyber-cert-pill">Seaborn</span>
+              <span class="cyber-cert-pill">SciPy</span>
+            </div>
+          </div>
+
+          <!-- 2. Simplilearn SQL -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #F59E0B; --cert-brand-bg: rgba(245,158,11,0.12); --cert-brand-border: rgba(245,158,11,0.3); --cert-brand-glow: rgba(245,158,11,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">SIMPLILEARN</span>
+                <span class="cyber-cert-status">✓ CERTIFIED</span>
+              </div>
+              <h3 class="cyber-cert-title">Full SQL Queries & Data Science</h3>
+              <p class="cyber-cert-desc">SQL fundamentals and advanced database queries — Inner/Outer Joins, subqueries,
+                Window Functions, CTEs, GROUP BY aggregations, and data modeling.</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">PostgreSQL</span>
+              <span class="cyber-cert-pill">SQL Joins</span>
+              <span class="cyber-cert-pill">Window Functions</span>
+              <span class="cyber-cert-pill">CTEs</span>
+            </div>
+          </div>
+
+          <!-- 3. LinkedIn Learning & Microsoft -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #3B82F6; --cert-brand-bg: rgba(59,130,246,0.12); --cert-brand-border: rgba(59,130,246,0.3); --cert-brand-glow: rgba(59,130,246,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">LINKEDIN LEARNING · MICROSOFT</span>
+                <span class="cyber-cert-status">✓ CERTIFIED</span>
+              </div>
+              <h3 class="cyber-cert-title">Career Essentials in Generative AI</h3>
+              <p class="cyber-cert-desc">Generative AI architecture principles, Large Language Model (LLM) workflows,
+                prompt engineering, AI ethics, and Microsoft Copilot integration.</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">Generative AI</span>
+              <span class="cyber-cert-pill">LLMs</span>
+              <span class="cyber-cert-pill">Prompt Engineering</span>
+              <span class="cyber-cert-pill">Copilot</span>
+            </div>
+          </div>
+
+          <!-- 4. Simplilearn MS Excel -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #10B981; --cert-brand-bg: rgba(16,185,129,0.12); --cert-brand-border: rgba(16,185,129,0.3); --cert-brand-glow: rgba(16,185,129,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">SIMPLILEARN</span>
+                <span class="cyber-cert-status">✓ CERTIFIED</span>
+              </div>
+              <h3 class="cyber-cert-title">Full MS Excel for Data Analysis</h3>
+              <p class="cyber-cert-desc">Advanced Excel formulas (VLOOKUP, XLOOKUP, INDEX/MATCH), Pivot Tables & Charts,
+                Data Validation, Linked Slicers, and Executive Dashboards.</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">Excel</span>
+              <span class="cyber-cert-pill">Pivot Tables</span>
+              <span class="cyber-cert-pill">Linked Slicers</span>
+              <span class="cyber-cert-pill">XLOOKUP</span>
+            </div>
+          </div>
+
+          <!-- 5. Forage -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #A855F7; --cert-brand-bg: rgba(168,85,247,0.12); --cert-brand-border: rgba(168,85,247,0.3); --cert-brand-glow: rgba(168,85,247,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">FORAGE VIRTUAL SIMULATIONS</span>
+                <span class="cyber-cert-status">✓ COMPLETED</span>
+              </div>
+              <h3 class="cyber-cert-title">Tata iQ, Deloitte & AWS Simulations</h3>
+              <p class="cyber-cert-desc">Simulated industry deliverables with Tata iQ (data storytelling), Deloitte
+                (forensic tech & data classification), and AWS (cloud EC2, S3, IAM, architecture).</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">Tata iQ</span>
+              <span class="cyber-cert-pill">Deloitte Tech</span>
+              <span class="cyber-cert-pill">AWS Cloud</span>
+              <span class="cyber-cert-pill">Data Storytelling</span>
+            </div>
+          </div>
+
+          <!-- 6. CodeAlpha Dual Track -->
+          <div class="cyber-cert-card"
+            style="--cert-brand-accent: #00E5CC; --cert-brand-bg: rgba(0,229,204,0.12); --cert-brand-border: rgba(0,229,204,0.3); --cert-brand-glow: rgba(0,229,204,0.2);">
+            <div>
+              <div class="cyber-cert-top">
+                <span class="cyber-cert-badge">CODEALPHA INTERNSHIP</span>
+                <span class="cyber-cert-status">✓ VERIFIED</span>
+              </div>
+              <h3 class="cyber-cert-title">Data Analytics & AI Internship Certificates</h3>
+              <p class="cyber-cert-desc">Dual-track internship completion certificates covering Data Analytics (web
+                scraping, EDA, NLP) and AI (ARIA chatbot, TITAN object detection, Translator).</p>
+            </div>
+            <div class="cyber-cert-pills">
+              <span class="cyber-cert-pill">Data Analytics</span>
+              <span class="cyber-cert-pill">AI Track</span>
+              <span class="cyber-cert-pill">NLP</span>
+              <span class="cyber-cert-pill">Computer Vision</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 17 — EXPERIENCE -->
+    <section class="section section-frame" id="experience">
+      <div class="container">
+        <div class="section-label">◉ EXPERIENCE</div>
+        <h2 class="section-title">Internships</h2>
+        <p class="section-sub" style="font-size:13px; color:rgba(255,255,255,0.45); margin-top:4px;">Hands-on
+          professional experience</p>
+
+        <div class="exp-grid">
+          <!-- LEFT CARD — CodeAlpha Data Analytics -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-org">CodeAlpha</div>
+              <div class="exp-badges">
+                <span class="exp-verified">● VERIFIED ✓</span>
+                <span class="exp-track-badge analytics">DATA ANALYTICS · 2025</span>
+              </div>
+            </div>
+            <div class="exp-role">Data Analytics Intern</div>
+            <div class="exp-bullets">
+              <div class="exp-bullet">▶ Completed Data Analytics track — web scraping, EDA, NLP sentiment analysis</div>
+              <div class="exp-bullet">▶ Built web scraper using BeautifulSoup — books dataset from books.toscrape.com
+              </div>
+              <div class="exp-bullet">▶ EDA with Pandas: missing values, distributions, correlation matrices</div>
+              <div class="exp-bullet">▶ NLP sentiment classification on IMDB 50K reviews — polarity scoring</div>
+              <div class="exp-bullet">▶ Delivered full documentation: internship log sheets, GR forms, project reports
+              </div>
+            </div>
+            <a href="https://github.com/PranavRoy07/CodeAlpha_DataAnalytics" target="_blank" rel="noopener noreferrer"
+              class="exp-github-btn">
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- RIGHT CARD — CodeAlpha AI -->
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-org">CodeAlpha</div>
+              <div class="exp-badges">
+                <span class="exp-verified">● VERIFIED ✓</span>
+                <span class="exp-track-badge ai">AI TRACK · 2026</span>
+              </div>
+            </div>
+            <div class="exp-role">AI Intern</div>
+            <div class="exp-bullets">
+              <div class="exp-bullet">▶ Built ARIA — TF-IDF + Claude API NLP FAQ chatbot</div>
+              <div class="exp-bullet">▶ Built TITAN — YOLOv8 + ByteTrack real-time object detection system</div>
+              <div class="exp-bullet">▶ Built Language Translator — 20+ language pairs, Tkinter GUI</div>
+              <div class="exp-bullet">▶ Cinematic OpenCV drawing overlay with custom HUD for TITAN</div>
+              <div class="exp-bullet">▶ Delivered all projects with full documentation and project reports</div>
+            </div>
+            <a href="https://github.com/PranavRoy07/CodeAlpha_AI" target="_blank" rel="noopener noreferrer"
+              class="exp-github-btn">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 17 — SECTION TRANSITION DIVIDER -->
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-glow"></div>
+    </div>
+
+    <!-- SECTION 17 — EDUCATION -->
+    <section class="section section-frame" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">◉ EDUCATION</span>
+          <h2 class="section-title">Academic Background</h2>
+        </div>
+
+        <div class="card-surface proj-card edu-main-card">
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+            <div>
+              <h3 style="font-size: 1.6rem; color: var(--accent-cyan);">🎓 BBACA — Bachelor of Business Administration
+                in Computer Applications</h3>
+              <p style="font-size: 1.1rem; color: var(--text-primary); margin-top: 0.35rem;">
+                Modern College of Arts, Science and Commerce, Pune
+              </p>
+            </div>
+            <span class="badge-pill badge-purple tech-badge" style="align-self: flex-start;">2023–2026</span>
+          </div>
+
+          <p style="margin-bottom: 1rem; color: var(--text-secondary);">
+            Business Administration + Computer Science hybrid curriculum combining core engineering principles with
+            business domain knowledge.
+          </p>
+
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge-pill tech-badge">Python</span>
+            <span class="badge-pill tech-badge">Advanced Java</span>
+            <span class="badge-pill tech-badge">HTML/CSS</span>
+            <span class="badge-pill tech-badge">PHP</span>
+            <span class="badge-pill tech-badge">Software Testing</span>
+            <span class="badge-pill tech-badge">IoT</span>
+            <span class="badge-pill tech-badge">Core Java</span>
+            <span class="badge-pill tech-badge">Business Communication</span>
+            <span class="badge-pill tech-badge">Digital Marketing</span>
+          </div>
+        </div>
+
+        <h3 style="font-size: 1.3rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--text-primary);">Self-Driven
+          Learning & Platforms
+        </h3>
+        <div class="edu-grid">
+          <div class="card-surface proj-card">
+            <h4 style="color: var(--accent-cyan); margin-bottom: 0.5rem;">freeCodeCamp</h4>
+            <p style="font-size: 0.85rem;">Data Analysis with Python — Full Certification & 5 Verified Projects</p>
+          </div>
+          <div class="card-surface proj-card">
+            <h4 style="color: var(--accent-amber); margin-bottom: 0.5rem;">Simplilearn</h4>
+            <p style="font-size: 0.85rem;">Full SQL Queries & Data Science — Joins, Subqueries, Window Functions & CTEs
+            </p>
+          </div>
+          <div class="card-surface proj-card">
+            <h4 style="color: var(--accent-purple); margin-bottom: 0.5rem;">LinkedIn Learning & Microsoft</h4>
+            <p style="font-size: 0.85rem;">Career Essentials in Generative AI — LLMs, Prompt Engineering & Copilot</p>
+          </div>
+          <div class="card-surface proj-card">
+            <h4 style="color: var(--accent-green); margin-bottom: 0.5rem;">Simplilearn</h4>
+            <p style="font-size: 0.85rem;">Full MS Excel for Data Analysis — Advanced Formulas, Pivot Tables &
+              Dashboards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VFX 20 — FOOTER ANIMATED SVG WAVE -->
+    <div class="footer-wave">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C200,60 400,0 600,30 C800,60 1000,0 1200,30 L1200,60 L0,60 Z" fill="rgba(0,229,204,0.04)"
+          style="animation: wavePath 6s ease-in-out infinite alternate;" />
+        <path d="M0,40 C300,10 600,50 900,20 C1050,10 1150,35 1200,40 L1200,60 L0,60 Z" fill="rgba(168,85,247,0.03)"
+          style="animation: wavePath 8s ease-in-out infinite alternate-reverse;" />
+      </svg>
+    </div>
+
+    <!-- SECTION 18 — CONTACT & FOOTER (VFX 14 FULL IMMERSIVE BASH TERMINAL) -->
+    <footer class="section contact-section" id="contact">
+      <div class="container">
+        <h2 class="contact-headline contact-heading">Let's Build Something Together.</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Open to Entry-Level SWE &nbsp;•&nbsp; Data Analyst &nbsp;•&nbsp; Entry-Level Roles.
+        </p>
+
+        <!-- VFX 14 — FULL IMMERSIVE TERMINAL -->
+        <div class="terminal-frame">
+          <div class="term-topbar">
+            <div class="term-dots">
+              <span style="background:#FF5F56;"></span>
+              <span style="background:#FFBD2E;"></span>
+              <span style="background:#27C93F;"></span>
+            </div>
+            <span class="term-title">pranav@portfolio — bash — 80×24</span>
+          </div>
+          <div class="term-body" id="termBody">
+            <div class="term-line"><span class="t-prompt">pranav@portfolio:~$ </span><span id="tl1"></span></div>
+            <div class="term-line" id="tl2-wrap" style="display:none;">
+              <span class="t-success">✓ </span><span id="tl2"></span>
+            </div>
+            <div class="term-line" id="tl3-wrap" style="display:none;">
+              <span class="t-prompt">pranav@portfolio:~$ </span><span id="tl3"></span>
+            </div>
+            <div id="tl4-wrap" style="display:none;">
+              <div class="term-line"><span class="t-muted"> Name </span><span class="t-val">Pranav Roy</span></div>
+              <div class="term-line"><span class="t-muted"> Role </span><span class="t-val">SWE · Data Analyst · AI
+                  Builder</span></div>
+              <div class="term-line"><span class="t-muted"> Location </span><span class="t-val">Pune, India</span></div>
+              <div class="term-line"><span class="t-muted"> GitHub </span><span
+                  class="t-accent">github.com/PranavRoy07</span></div>
+              <div class="term-line"><span class="t-muted"> Email </span><span
+                  class="t-accent">pranavroy07@gmail.com</span></div>
+              <div class="term-line"><span class="t-muted"> Status </span><span class="t-success">● Open to Work</span>
+              </div>
+              <div class="term-line" style="margin-top: 10px; color: #FACC15; font-weight: 600; line-height: 1.6;">
+                "Still Building. Still Learning.<br>The Best Project Is Yet To Come"
+              </div>
+            </div>
+            <div class="term-line" id="tl5-wrap" style="display:none;">
+              <span class="t-prompt">pranav@portfolio:~$ </span>
+              <span class="t-cursor-blink">█</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cards-row">
+          <a href="https://github.com/PranavRoy07" target="_blank" rel="noopener noreferrer" class="contact-card-btn">
+            🐙 GitHub <span>github.com/PranavRoy07</span>
+          </a>
+          <a href="https://linkedin.com/in/pranav-roy-data" target="_blank" rel="noopener noreferrer"
+            class="contact-card-btn">
+            💼 LinkedIn <span>linkedin.com/in/pranav-roy-data</span>
+          </a>
+          <a href="mailto:pranavroy07@gmail.com" class="contact-card-btn">
+            📧 Gmail <span>pranavroy07@gmail.com</span>
+          </a>
+        </div>
+
+        <div style="margin-bottom: 3.5rem;">
+          <a href="resume.pdf" download class="btn btn-cyan btn-primary"
+            style="font-size: 1.1rem; padding: 1rem 2.5rem;">
+            Download Resume 📥
+          </a>
+        </div>
+
+        <div class="footer-text">
+          <p>Pranav Roy &nbsp;•&nbsp; BBACA Graduate &nbsp;•&nbsp; Pune, Maharashtra, India &nbsp;•&nbsp; Available
+            immediately to join for Entry-Level roles</p>
+          <p>19 Public GitHub Repositories &nbsp;•&nbsp; <a href="https://github.com/PranavRoy07" target="_blank"
+              rel="noopener noreferrer" style="color: var(--accent-cyan);">github.com/PranavRoy07</a></p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Image View">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+      <img src="" alt="Enlarged screenshot preview" class="lightbox-img" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- VFX 18 — FLOATING SOCIAL SIDEBAR -->
+  <div class="social-sidebar">
+    <a href="https://github.com/PranavRoy07" target="_blank" rel="noopener noreferrer" class="ss-link" title="GitHub">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+      </svg>
+    </a>
+    <a href="https://linkedin.com/in/pranav-roy-data" target="_blank" rel="noopener noreferrer" class="ss-link"
+      title="LinkedIn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.7a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z" />
+      </svg>
+    </a>
+    <a href="mailto:pranavroy07@gmail.com" class="ss-link" title="Email">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+      </svg>
+    </a>
+    <div class="ss-line"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
