@@ -3217,7 +3217,7 @@ img {
 ── */
 .proj-stack {
   position: relative;
-  height: 1500vh;   /* 15 cards × 100vh — exact scroll track for 15 sticky cards */
+  height: 1900vh;   /* 19 cards × 100vh — one viewport per card for the sticky stack */
   counter-reset: proj-counter;
 }
 

@@ -604,7 +604,7 @@ function initTyped() {
 // STAT COUNTER ANIMATION
 function initCounters() {
   const counters = [
-    { id: 'stat-repos', end: 21, suffix: '+' },
+    { id: 'stat-repos', end: 24, suffix: '+' },
     { id: 'stat-certs', end: 6, suffix: '+' },
     { id: 'stat-langs', end: 5, suffix: '' },
     { id: 'stat-internships', end: 2, suffix: '' },

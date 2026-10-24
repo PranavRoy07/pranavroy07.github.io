@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="24" viewBox="0 0 1000 24" role="presentation">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00E5CC" stop-opacity="0"/><stop offset=".5" stop-color="#7C6CFF"/><stop offset="1" stop-color="#FF4FD8" stop-opacity="0"/></linearGradient>
+    <radialGradient id="p"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#00E5CC" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="11" width="1000" height="2" fill="url(#g)"/>
+  <circle cy="12" r="9" fill="url(#p)"><animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cy="12" r="9" fill="url(#p)"><animate attributeName="cx" values="1000;0" dur="6s" repeatCount="indefinite"/></circle>
+  <g fill="#00E5CC"><path d="M500 4l8 8-8 8-8-8z"><animateTransform attributeName="transform" type="rotate" from="0 500 12" to="360 500 12" dur="6s" repeatCount="indefinite"/></path></g>
+</svg>
