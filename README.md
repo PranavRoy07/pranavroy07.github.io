@@ -308,7 +308,7 @@ Please do not copy content, project descriptions, or designs directly.
 <div align="center">
 
 **Built by Pranav Roy · Pune, Maharashtra, India · 2026**
-_Open to Entry-Level SWE · Data Analyst · Banking Roles — Pune & Remote_
+_Open to Entry-Level SWE · Data Analyst · IT Roles — Pune & Remote_
 
 ⭐ If you found this helpful, consider starring the repo!
 
