@@ -222,12 +222,12 @@ pranavroy07.github.io/
 
 ## 💼 Experience
 
-**CodeAlpha — Data Analytics Intern** _(2025)_
+**CodeAlpha — Data Analytics Intern** _(2026)_
 
 - Web scraping with BeautifulSoup, EDA with Pandas, NLP sentiment analysis on IMDB 50K reviews
 - Built: CodeAlpha Data Analytics project
 
-**CodeAlpha — AI Intern** _(2025)_
+**CodeAlpha — AI Intern** _(2026)_
 
 - Built ARIA (TF-IDF + Claude API chatbot), TITAN (YOLOv8 + ByteTrack detection), Language Translator
 - Delivered full documentation: internship log sheets, GR forms, project reports
