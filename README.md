@@ -15,7 +15,7 @@
 [![Live Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-pranavroy07.github.io-00E5CC?style=for-the-badge)](https://pranavroy07.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-PranavRoy07-181717?style=for-the-badge&logo=github)](https://github.com/PranavRoy07)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pranav--roy--data-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pranav-roy-data)
-[![Email](https://img.shields.io/badge/Email-pranavroy07@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:pranavroy07@gmail.com)
+[![Email](https://img.shields.io/badge/Email-pranavroy0512@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:pranavroy0512@gmail.com)
 
 **BBACA Graduate · Software Engineer · Data Analyst · AI Builder**
 _Pune, India · Open to Entry-Level Roles_
@@ -157,27 +157,27 @@ pranavroy07.github.io/
 
 ## 📊 Featured Projects (19 Sticky Stack Cards)
 
-| #   | Project                                                                                                       | Domain           | Tech                                         | Live                                                                            |
-| --- | ------------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------------- | ------------------------------------------------------------------------------- |
-| 01  | [Zepto vs Blinkit War Room](https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM)                         | Data Analytics   | SQL, Python, Power BI, ARIMA                 | —                                                                               |
-| 02  | [Pan-India Cinema Intelligence](https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard)                    | Data Analytics   | Power BI, DAX, Excel                         | —                                                                               |
-| 03  | [CodeAlpha AI Builds](https://github.com/PranavRoy07/CodeAlpha_AI)                                            | AI / ML          | Python, YOLOv8, TF-IDF, Claude API           | —                                                                               |
-| 04  | [Script2Cinema](https://github.com/PranavRoy07/script2cinema)                                                 | Web              | HTML, CSS, JS, Firebase                      | [🚀 Live](https://pranavroy07.github.io/script2cinema/)                         |
-| 05  | [Job Intelligence Engine](https://github.com/PranavRoy07/job-tracker)                                         | Python           | Rich, SQLite, APScheduler                    | —                                                                               |
-| 06  | [CodeAlpha Data Analytics](https://github.com/PranavRoy07/CodeAlpha_DataAnalytics)                            | Data Analytics   | Python, BeautifulSoup, TextBlob              | —                                                                               |
-| 07  | [IPL Match Performance Analyzer](https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer)               | Data Analytics   | PostgreSQL, Python, Seaborn                  | —                                                                               |
-| 08  | [Global DS Job Market Analysis](https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis)       | Data Analytics   | PostgreSQL, SQL, CTEs                        | —                                                                               |
-| 09  | [IBM HR Attrition Dashboard](https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard)              | Data Analytics   | Excel, Pivot Tables                          | —                                                                               |
-| 10  | [Bank Customer Churn Analytics](https://github.com/PranavRoy07/Bank-Customer-Churn-Analytics)                 | ML + Analytics   | Python, scikit-learn, Streamlit              | [🚀 Live](https://bank-customer-churn-risk.streamlit.app/)                      |
-| 11  | [Growth Experimentation Analytics](https://github.com/PranavRoy07/Growth-Experimentation-Retention-Analytics) | Analytics        | Python, A/B Testing, Streamlit               | [🚀 Live](https://growth-experimentation-retention-analytics-09.streamlit.app/) |
-| 12  | [QA Automation Test Suite](https://github.com/PranavRoy07/-QA-Test-Suite)                                     | QA Automation    | Python, Playwright, pytest, Postman, GitHub Actions | [🚀 Live Report](https://pranavroy07.github.io/-QA-Test-Suite/?sort=result) |
-| 13  | [RemoteOK Data Engineering Pipeline](https://github.com/PranavRoy07/Remoteok-Data-Engineering-Pipeline)       | Data Engineering | Airflow, PostgreSQL, dbt, Docker, Streamlit  | [🚀 Live](https://remoteok-data-engineering-pipeline-abcdefghij.streamlit.app/) |
-| 14  | [PipelineOps Analytics](https://github.com/PranavRoy07/Pipelineops-Analytics)                                 | Data Engineering | Python, SciPy, SQLite, Power BI, Streamlit   | [🚀 Live](https://pipelineops-analytics-klmnopqr.streamlit.app/)                |
-| 15  | [Personal Portfolio Website](https://github.com/PranavRoy07/pranavroy07.github.io)                            | Web              | HTML, CSS, JavaScript, GSAP, tsParticles     | [🚀 Live](https://pranavroy07.github.io/)                                       |
-| 16  | [Vanilla JS Quiz Engine](https://github.com/PranavRoy07/vanilla-js-quiz-engine)                               | Web              | JavaScript, DOM API, localStorage            | [🚀 Live](https://pranavroy07.github.io/vanilla-js-quiz-engine/)                |
-| 17  | [Pan-India Cinema Site](https://github.com/PranavRoy07/pan-india-cinema-dashboard-site)                       | Web              | JS, Fetch API, Promise.allSettled            | [🚀 Live](https://pranavroy07.github.io/pan-india-cinema-dashboard-site/)       |
-| 18  | [Realtime Collaborative Note Board](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-)        | Web              | JS, Node.js, WebSocket                       | [🚀 Live](https://realtime-note-borad.netlify.app/)                             |
-| 19  | [freeCodeCamp Data Analysis](https://github.com/PranavRoy07/FreeCodeCamp)                                     | Data Analytics   | Python, Pandas, Matplotlib, SciPy            | —                                                                               |
+| #   | Project                                                                                                       | Domain           | Tech                                                | Live                                                                            |
+| --- | ------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 01  | [Zepto vs Blinkit War Room](https://github.com/PranavRoy07/ZEPTO-VS-BLINKIT-WAR-ROOM)                         | Data Analytics   | SQL, Python, Power BI, ARIMA                        | —                                                                               |
+| 02  | [Pan-India Cinema Intelligence](https://github.com/PranavRoy07/Pan-India-Cinema-Dashboard)                    | Data Analytics   | Power BI, DAX, Excel                                | —                                                                               |
+| 03  | [CodeAlpha AI Builds](https://github.com/PranavRoy07/CodeAlpha_AI)                                            | AI / ML          | Python, YOLOv8, TF-IDF, Claude API                  | —                                                                               |
+| 04  | [Script2Cinema](https://github.com/PranavRoy07/script2cinema)                                                 | Web              | HTML, CSS, JS, Firebase                             | [🚀 Live](https://pranavroy07.github.io/script2cinema/)                         |
+| 05  | [Job Intelligence Engine](https://github.com/PranavRoy07/job-tracker)                                         | Python           | Rich, SQLite, APScheduler                           | —                                                                               |
+| 06  | [CodeAlpha Data Analytics](https://github.com/PranavRoy07/CodeAlpha_DataAnalytics)                            | Data Analytics   | Python, BeautifulSoup, TextBlob                     | —                                                                               |
+| 07  | [IPL Match Performance Analyzer](https://github.com/PranavRoy07/IPL-Match-Performance-Analyzer)               | Data Analytics   | PostgreSQL, Python, Seaborn                         | —                                                                               |
+| 08  | [Global DS Job Market Analysis](https://github.com/PranavRoy07/Global-Data-Science-Job-Market-Analysis)       | Data Analytics   | PostgreSQL, SQL, CTEs                               | —                                                                               |
+| 09  | [IBM HR Attrition Dashboard](https://github.com/PranavRoy07/IBM-HR-Employee-Attrition-Dashboard)              | Data Analytics   | Excel, Pivot Tables                                 | —                                                                               |
+| 10  | [Bank Customer Churn Analytics](https://github.com/PranavRoy07/Bank-Customer-Churn-Analytics)                 | ML + Analytics   | Python, scikit-learn, Streamlit                     | [🚀 Live](https://bank-customer-churn-risk.streamlit.app/)                      |
+| 11  | [Growth Experimentation Analytics](https://github.com/PranavRoy07/Growth-Experimentation-Retention-Analytics) | Analytics        | Python, A/B Testing, Streamlit                      | [🚀 Live](https://growth-experimentation-retention-analytics-09.streamlit.app/) |
+| 12  | [QA Automation Test Suite](https://github.com/PranavRoy07/-QA-Test-Suite)                                     | QA Automation    | Python, Playwright, pytest, Postman, GitHub Actions | [🚀 Live Report](https://pranavroy07.github.io/-QA-Test-Suite/?sort=result)     |
+| 13  | [RemoteOK Data Engineering Pipeline](https://github.com/PranavRoy07/Remoteok-Data-Engineering-Pipeline)       | Data Engineering | Airflow, PostgreSQL, dbt, Docker, Streamlit         | [🚀 Live](https://remoteok-data-engineering-pipeline-abcdefghij.streamlit.app/) |
+| 14  | [PipelineOps Analytics](https://github.com/PranavRoy07/Pipelineops-Analytics)                                 | Data Engineering | Python, SciPy, SQLite, Power BI, Streamlit          | [🚀 Live](https://pipelineops-analytics-klmnopqr.streamlit.app/)                |
+| 15  | [Personal Portfolio Website](https://github.com/PranavRoy07/pranavroy07.github.io)                            | Web              | HTML, CSS, JavaScript, GSAP, tsParticles            | [🚀 Live](https://pranavroy07.github.io/)                                       |
+| 16  | [Vanilla JS Quiz Engine](https://github.com/PranavRoy07/vanilla-js-quiz-engine)                               | Web              | JavaScript, DOM API, localStorage                   | [🚀 Live](https://pranavroy07.github.io/vanilla-js-quiz-engine/)                |
+| 17  | [Pan-India Cinema Site](https://github.com/PranavRoy07/pan-india-cinema-dashboard-site)                       | Web              | JS, Fetch API, Promise.allSettled                   | [🚀 Live](https://pranavroy07.github.io/pan-india-cinema-dashboard-site/)       |
+| 18  | [Realtime Collaborative Note Board](https://github.com/PranavRoy07/Realtime-Collaborative-Note-Board-)        | Web              | JS, Node.js, WebSocket                              | [🚀 Live](https://realtime-note-borad.netlify.app/)                             |
+| 19  | [freeCodeCamp Data Analysis](https://github.com/PranavRoy07/FreeCodeCamp)                                     | Data Analytics   | Python, Pandas, Matplotlib, SciPy                   | —                                                                               |
 
 <div align="center">
 
@@ -286,7 +286,7 @@ git push
 | 🌐 Portfolio | [pranavroy07.github.io](https://pranavroy07.github.io)                     |
 | 💼 LinkedIn  | [linkedin.com/in/pranav-roy-data](https://linkedin.com/in/pranav-roy-data) |
 | 🐙 GitHub    | [github.com/PranavRoy07](https://github.com/PranavRoy07)                   |
-| 📧 Email     | [pranavroy07@gmail.com](mailto:pranavroy07@gmail.com)                      |
+| 📧 Email     | [pranavroy0512@gmail.com](mailto:pranavroy0512@gmail.com)                  |
 
 <div align="center">
 
